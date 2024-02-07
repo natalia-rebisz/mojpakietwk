@@ -1,0 +1,12 @@
+Package: mojpakiet
+Title: Oblicza zwarcie poziome koron drzew
+Version: 0.0.1
+Authors@R: 
+    person("Wojciech", "Krawczyk", , "wojciech.kravchyk@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6015-9158"))
+Description: Oblicza zwarcie poziome koron drzew na podstawie znormalizowanej chmury punktów.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: lidR
