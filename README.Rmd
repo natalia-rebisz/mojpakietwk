@@ -1,0 +1,20 @@
+---
+title: "Mój testowy pakiet"
+output: github_document
+---
+
+## Opis pakietu
+
+To jest opis pakietu.
+
+## Funkcje zawarte w pakiecie
+
+canopyCover
+
+temp_f
+
+```{r cars}
+summary(cars)
+```
+
+## Przykłady
