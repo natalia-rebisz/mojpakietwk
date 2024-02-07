@@ -1,0 +1,38 @@
+---
+title: "Podstawowe narzędzia pakietu mójpakiet"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{nazwa-winiety}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#library(mojpakiet)
+```
+
+## Instalacja
+
+Można zainstalować deweloperską wersję pakietu mojpakiet z [GitHub](https://github.com/) poprzez:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("wkravchyk/mojpakiet")
+```
+
+## Zawarte funkcje
+
+canopyCover
+
+temp_f
+
+## Podstawowe wykrozystanie
+
+## Odniesienia
