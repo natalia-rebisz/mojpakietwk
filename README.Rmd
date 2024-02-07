@@ -1,20 +1,45 @@
 ---
-title: "Mój testowy pakiet"
 output: github_document
 ---
 
-## Opis pakietu
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-To jest opis pakietu.
-
-## Funkcje zawarte w pakiecie
-
-canopyCover
-
-temp_f
-
-```{r cars}
-summary(cars)
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
 ```
 
-## Przykłady
+# mojpakiet
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Celem pakietu jest udostępnienie funkcji umożliwiających obliczenie zwarcia poziomego koron drzew na podsdtawie danych Lotniczego Skanowania Laserowego (ALS).
+
+## Installation
+
+Można zainstalować deweloperską wersję pakietu mojpakiet z [GitHub](https://github.com/) poprzez:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("wkravchyk/mojpakiet")
+```
+
+## Przykład
+
+Podstawowa funkcjonalność:
+
+```{r example}
+#library(mojpakiet)
+## basic example code
+```
+
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
