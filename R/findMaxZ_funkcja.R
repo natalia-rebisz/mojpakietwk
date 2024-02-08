@@ -18,7 +18,7 @@ findMaxZ = function(dirPath, hgtTresh) {
       name = paste(basename(lasList[i]),".shp", sep = "")
       sf::st_write(sf::st_as_sf(najwyzszeDrzewo, coords = c("X","Y"), crs = 2180), paste0(dirPath, name))
     } else {
-      cat(i, lasList[i], "nie posiadał punktow powyzej", hgtTresh, "m\n")
+      cat(i, lasList[i], "nie posiadal punktow powyzej", hgtTresh, "m\n")
     }
   }
 }
