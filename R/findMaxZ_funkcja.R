@@ -22,4 +22,5 @@ findMaxZ = function(dirPath, hgtTresh) {
       cat(i, lasList[i], "nie posiadal punktow powyzej", hgtTresh, "m\n")
     }
   }
+  return(najwyzszeDrzewo)
 }
