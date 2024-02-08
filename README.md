@@ -6,9 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Celem pakietu jest udostępnienie funkcji umożliwiających obliczenie
-zwarcia poziomego koron drzew na podsdtawie danych Lotniczego Skanowania
-Laserowego (ALS).
+Celem pakietu jest udostępnienie funkcji umożliwiających zlokalizowanie
+najwyższego drzewa na podstawie danych Lotniczego Skanowania Laserowego
+(ALS).
 
 ## Installation
 

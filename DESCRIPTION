@@ -1,10 +1,10 @@
 Package: mojpakiet
-Title: Oblicza zwarcie poziome koron drzew
+Title: Znajdź lokalizację najwyższego drzewa
 Version: 0.0.1
 Authors@R: 
     person("Wojciech", "Krawczyk", , "wojciech.kravchyk@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6015-9158"))
-Description: Oblicza zwarcie poziome koron drzew na podstawie znormalizowanej chmury punktów.
+Description: Znajduje lokalizację najwyższego drzewa na podstawie znormalizowanej chmury punktów.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,3 +14,6 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true
