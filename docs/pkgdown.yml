@@ -1,0 +1,10 @@
+pandoc: 3.1.1
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  nazwa-winiety: nazwa-winiety.html
+last_built: 2024-02-08T11:14Z
+urls:
+  reference: https://wkravchyk.github.io/mojpakiet/reference
+  article: https://wkravchyk.github.io/mojpakiet/articles
+
